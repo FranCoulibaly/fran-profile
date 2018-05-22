@@ -103,10 +103,10 @@ h2.about {
     position: absolute;
     top: 15%;
     text-align: center;
-    /* left: 50%; */
     padding: 10px;
     font-size: 30px;
 }
+
 #imagecontainer {
     position: absolute;
     width: 640px;
@@ -125,18 +125,17 @@ h2.about {
     left: 50%;
     transform: translate(-50%);
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 	#imagecontainer {
-	position: relative;
-	top: 35%;
+		position: relative;
+		top: 35%;
 	}
 	h3.about {
-    position: absolute;
-    top: 12%;
-    /* margin-top: -270px; */
-    margin: 0 auto;
-    text-align: center;
-    /* transform: translate(-50%); */
+	    position: absolute;
+	    top: 12%;
+	    margin: 0 auto;
+	    text-align: center;
 	}
 
 	.contact {
@@ -149,35 +148,36 @@ h2.about {
 	.about {
 		font-size: 18px;
 		left: 2%;
-	
 	}
+
 	h3.about { 
-	position: relative;
-    top: -5%;
-    left: 0;
-    transform: none; 
-    text-align: center;
+		position: relative;
+	    top: -5%;
+	    left: 0;
+	    transform: none; 
+	    text-align: center;
 	} 
+
 	h2.about {
-	position: absolute;
-    top: 31%;
-    width: 15%;
-    font-size: 16px;
-    left: 1.5%;
-    transform: none;
-    text-align: left;
-    padding: 0;
+		position: absolute;
+	    top: 31%;
+	    width: 15%;
+	    font-size: 16px;
+	    left: 1.5%;
+	    transform: none;
+	    text-align: left;
+	    padding: 0;
 	}
 
 	.contact {
-	position: relative;
-    /* left: 20%; */
-    top: 17%;
-    margin: 5px;
+		position: relative;
+	    top: 17%;
+	    margin: 5px;
 	}
+
 	#imagecontainer {
-	position: relative;
-	top: 20%;
+		position: relative;
+		top: 20%;
 	}
 
 	a { 
